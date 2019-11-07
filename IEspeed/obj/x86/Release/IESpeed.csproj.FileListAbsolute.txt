@@ -179,7 +179,6 @@ C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Release\CefSharp.W
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Release\CefSharp.WinForms.XML
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Release\IESpeed.exe.config
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Release\IESpeed.exe
-C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Release\IESpeed.pdb
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Release\IESpeedLibrary.dll
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Release\IESpeedLibrary.pdb
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Release\IEspeed.csprojAssemblyReference.cache
@@ -189,4 +188,3 @@ C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Release\IEspeed.cs
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Release\IEspeed.csproj.CoreCompileInputs.cache
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Release\IEspeed.csproj.CopyComplete
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Release\IESpeed.exe
-C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Release\IESpeed.pdb
