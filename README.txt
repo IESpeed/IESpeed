@@ -8,3 +8,5 @@ There are two vs projects:
 
 IEspeed: external WinForms app containing IEspeedControl.
 IEspeedLibrary: contains IEspeedControl.
+
+Compiled only for x86.
