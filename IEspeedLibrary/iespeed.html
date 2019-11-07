@@ -1,0 +1,75 @@
+<!--
+  iespeed.html
+  speed up JS performance for IE11 if IEspeed is installed
+  (c) 2019 ITH icoserve technologies for healthcare
+-->
+
+<html>
+
+<head>
+
+    <link href="file:///c:/Temp/favicon.ico" rel="Shortcut Icon">
+
+    <script language="JavaScript" type="text/javascript">
+
+        // open an URL in the IEspeed control
+        function OpenURL(url) {
+            document.IEspeed.Open(url);
+        }
+
+        // function called when browser back button is pressed
+        function goback() {
+            window.onpopstate = null;  // temporarily disable event to avoid self trigger
+            history.go(1);  // revert back button action
+            window.onpopstate = function () { goback(); };  // reenable
+            document.IEspeed.navigateBack();  // tell IEspeed control to go back instead
+        }
+
+        function getUrl() {
+            // return the URL which is stated as query string
+            url = window.location.search.substr(1); // query string without leading "?"
+            // NOTE: needs adaption per installation
+            if (url == "") url = "about:blank"// default page if no params given
+            return url;
+        }
+
+        function OnLoad() {
+            // redirect to URL if IEspeed control is not available
+            if (typeof (document.IEspeed) == "undefined" || typeof (document.IEspeed.hWnd) == "undefined" || typeof (document.IEspeed.hWnd) == "unknown") {
+                window.location.replace(getUrl());
+            } else {
+                // ignore browser back button and send "back" command to IEspeed instead
+                document.IEspeed.InitIEspeed();
+                if (typeof history.pushState === "function") { // only if IE JS version supports pushState
+                    history.pushState(null, null, location.href);
+                    window.onpopstate = function () { goback(); };
+                }
+            }
+        }
+
+< !--display Loading message while IEspeed is loading the page-- >
+            function showLoadingMessage() {
+                document.IEspeed.HTML = '<div style="color:#ec6602;font-family:calibri;text-align:center;"><br><br>Loading......</div>';
+            }
+
+    </script>
+
+    <!-- load page after IEspeed has been initialized -->
+    <script language="JavaScript" for="IEspeed" event="OnBrowserReady()" type="text/javascript">
+        document.IEspeed.height = "100%";
+        showLoadingMessage();
+        OpenURL(getUrl());
+    </script>
+
+    <head>
+
+        <body onload="OnLoad()" style="overflow:hidden;margin:0;padding:0;box-sizing:border-box;">
+
+            <!-- load IEspeed control (must be installed, IE security settings must allow usage!) -->
+            <object ID="IEspeed" CLASSID="clsid:74627B42-6755-47CB-8402-AB0914774680" width="100%" height="1" border="0">
+            </object>
+
+            <div style="color:#ec6602;font-family:calibri;text-align:center;"><br><br>Loading...</div>
+
+        </body>
+</html>
