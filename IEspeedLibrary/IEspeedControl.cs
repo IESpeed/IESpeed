@@ -113,7 +113,8 @@ namespace IEspeedLibrary
             browser = new ChromiumWebBrowser("about:blank")
             {
                 Dock = DockStyle.Fill,
-                RequestHandler = new BrowserRequestHandler()
+                RequestHandler = new BrowserRequestHandler(),
+                DownloadHandler = new DownloadRequestHandler()
             };
         }
 
@@ -129,6 +130,32 @@ namespace IEspeedLibrary
                 }
                 callback.Continue(confirm);
                 return true;
+            }
+        }
+
+        public class DownloadRequestHandler : CefSharp.IDownloadHandler
+        {
+
+            public event EventHandler<DownloadItem> OnBeforeDownloadFired;
+
+            public event EventHandler<DownloadItem> OnDownloadUpdatedFired;
+
+            public void OnBeforeDownload(IWebBrowser chromiumWebBrowser, IBrowser browser, DownloadItem downloadItem, IBeforeDownloadCallback callback)
+            {
+                OnBeforeDownloadFired?.Invoke(this, downloadItem);
+
+                if (!callback.IsDisposed)
+                {
+                    using (callback)
+                    {
+                        callback.Continue(downloadItem.SuggestedFileName, showDialog: true);
+                    }
+                }
+            }
+
+            public void OnDownloadUpdated(IWebBrowser chromiumWebBrowser, IBrowser browser, DownloadItem downloadItem, IDownloadItemCallback callback)
+            {
+                OnDownloadUpdatedFired?.Invoke(this, downloadItem);
             }
         }
     }
@@ -147,8 +174,8 @@ namespace IEspeedLibrary
         [DispId(0x10000003)]
         void InitIEspeed();
 
-        string HTML { get; set; }
-        IntPtr hWnd { get; set; }
+        string HTML { set; }
+        IntPtr hWnd { get; }
     }
 
     [Guid("F85EAD53-B7F7-43F9-B3B8-4209831536A5")]
