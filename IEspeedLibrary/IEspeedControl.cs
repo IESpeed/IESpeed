@@ -6,10 +6,11 @@ using System.Runtime.InteropServices;
 using System.Reflection;
 using CefSharp;
 using CefSharp.WinForms;
+using System.IO;
 
 namespace IEspeedLibrary
 {
-    [ProgId("IESpeedLibrary.IESpeedControl")]
+    [ProgId("IEspeedLibrary.IEspeedControl")]
     [Guid("74627B42-6755-47CB-8402-AB0914774680")]
     [ComVisible(true)]
     [ClassInterface(ClassInterfaceType.None)]
@@ -71,6 +72,14 @@ namespace IEspeedLibrary
             Controls.Add(browser);
         }
 
+        public DialogResult DownloadPrompt(string fileName, string fileType)
+        {
+            OpenSaveForm dialog = new OpenSaveForm();
+            dialog.FileNameLabel.Text = fileName;
+            dialog.FileTypeLabel.Text = fileType;
+            return dialog.ShowDialog();
+        }
+
         [ComRegisterFunction()]
         public static void RegisterClass(string key)
         {
@@ -114,7 +123,7 @@ namespace IEspeedLibrary
             {
                 Dock = DockStyle.Fill,
                 RequestHandler = new BrowserRequestHandler(),
-                DownloadHandler = new DownloadRequestHandler()
+                DownloadHandler = new DownloadRequestHandler(this)
             };
         }
 
@@ -140,22 +149,47 @@ namespace IEspeedLibrary
 
             public event EventHandler<DownloadItem> OnDownloadUpdatedFired;
 
+            private IEspeedControl control;
+
+            public DownloadRequestHandler(IEspeedControl controlIn)
+            {
+                control = controlIn;
+            }
+
             public void OnBeforeDownload(IWebBrowser chromiumWebBrowser, IBrowser browser, DownloadItem downloadItem, IBeforeDownloadCallback callback)
             {
-                OnBeforeDownloadFired?.Invoke(this, downloadItem);
+                // This line is over complex due to time constraints
+                // This line opens the OpenSaveForm on the main UI thread and returns the DialogResult
+                // to the excuting thread (a CefSharp thread)
+                DialogResult result = (DialogResult)control.Invoke(((Func<string, string, DialogResult>)
+                    ((fileName, fileType) => control.DownloadPrompt(fileName, fileType))), 
+                    downloadItem.SuggestedFileName, downloadItem.MimeType);
 
                 if (!callback.IsDisposed)
                 {
                     using (callback)
                     {
-                        callback.Continue(downloadItem.SuggestedFileName, showDialog: true);
+                        if (result == DialogResult.Yes)
+                        {
+                            callback.Continue(downloadItem.SuggestedFileName, showDialog: true);
+                        }
+                        else if (result == DialogResult.OK)
+                        {
+                            callback.Continue(Path.GetTempPath() + downloadItem.SuggestedFileName, showDialog: false);
+                        }
                     }
                 }
             }
 
             public void OnDownloadUpdated(IWebBrowser chromiumWebBrowser, IBrowser browser, DownloadItem downloadItem, IDownloadItemCallback callback)
             {
-                OnDownloadUpdatedFired?.Invoke(this, downloadItem);
+                // Check if this is a temporary file, we know this if it is being saved to the temp folder
+                // Not a great way to check, but the easiest way
+                int dirEnd = downloadItem.FullPath.LastIndexOf('\\') + 1;
+                if (downloadItem.IsComplete && downloadItem.FullPath.Substring(0, dirEnd).Equals(Path.GetTempPath()))
+                {
+                    System.Diagnostics.Process.Start(downloadItem.FullPath);
+                }
             }
         }
     }
@@ -164,7 +198,6 @@ namespace IEspeedLibrary
     [ComVisible(true)]
     public interface IComObject
     {
-
         [DispId(0x10000001)]
         void Open(string url);
 

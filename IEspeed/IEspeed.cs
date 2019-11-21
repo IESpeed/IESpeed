@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using IEspeedLibrary;
 
-namespace IESpeed
+namespace IEspeed
 {
     public partial class IEspeed : Form
     {

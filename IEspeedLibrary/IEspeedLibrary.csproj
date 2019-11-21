@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1535D069-77CE-44A5-A024-1E719E4EB736}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>IESpeedLibrary</RootNamespace>
-    <AssemblyName>IESpeedLibrary</AssemblyName>
+    <RootNamespace>IEspeedLibrary</RootNamespace>
+    <AssemblyName>IEspeedLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -64,12 +64,24 @@
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>IEspeedControl.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="IEspeedControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="IEspeedControl.Designer.cs">
       <DependentUpon>IEspeedControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenSaveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenSaveForm.Designer.cs">
+      <DependentUpon>OpenSaveForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -94,8 +106,10 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +118,9 @@
   <ItemGroup>
     <EmbeddedResource Include="IEspeedControl.resx">
       <DependentUpon>IEspeedControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenSaveForm.resx">
+      <DependentUpon>OpenSaveForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

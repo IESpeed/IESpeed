@@ -1,4 +1,4 @@
-// Copyright (c) 2019 ITH icoserve technologies for healthcare. 
+// Copyright (c) 2019 ITH icoserve technology for healthcare. 
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without

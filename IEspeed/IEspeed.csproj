@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{368FC55D-F9A0-49DF-895A-D171705BAD71}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>IESpeed</RootNamespace>
-    <AssemblyName>IESpeed</AssemblyName>
+    <RootNamespace>IEspeed</RootNamespace>
+    <AssemblyName>IEspeed</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -58,7 +58,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IESpeed.Program</StartupObject>
+    <StartupObject>IEspeed.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

@@ -1,4 +1,4 @@
-﻿namespace IESpeed
+﻿namespace IEspeed
 {
     partial class IEspeed
     {
