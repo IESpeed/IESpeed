@@ -1,0 +1,1114 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.2": {
+      "cef.redist.x64/75.1.14": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "cef.redist.x86/75.1.14": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "CefSharp.Common/75.1.142": {
+        "type": "package",
+        "dependencies": {
+          "cef.redist.x64": "[75.1.14]",
+          "cef.redist.x86": "[75.1.14]"
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "CefSharp.WinForms/75.1.142": {
+        "type": "package",
+        "dependencies": {
+          "CefSharp.Common": "[75.1.142]"
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "MSTest.TestAdapter/2.0.0": {
+        "type": "package",
+        "build": {
+          "build/net45/MSTest.TestAdapter.props": {},
+          "build/net45/MSTest.TestAdapter.targets": {}
+        }
+      },
+      "MSTest.TestFramework/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        }
+      },
+      "IEspeedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.2",
+        "dependencies": {
+          "CefSharp.Common": "75.1.142",
+          "CefSharp.WinForms": "75.1.142"
+        },
+        "compile": {
+          "bin/placeholder/IEspeedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IEspeedLibrary.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win": {
+      "cef.redist.x64/75.1.14": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "cef.redist.x86/75.1.14": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "CefSharp.Common/75.1.142": {
+        "type": "package",
+        "dependencies": {
+          "cef.redist.x64": "[75.1.14]",
+          "cef.redist.x86": "[75.1.14]"
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "CefSharp.WinForms/75.1.142": {
+        "type": "package",
+        "dependencies": {
+          "CefSharp.Common": "[75.1.142]"
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "MSTest.TestAdapter/2.0.0": {
+        "type": "package",
+        "build": {
+          "build/net45/MSTest.TestAdapter.props": {},
+          "build/net45/MSTest.TestAdapter.targets": {}
+        }
+      },
+      "MSTest.TestFramework/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        }
+      },
+      "IEspeedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.2",
+        "dependencies": {
+          "CefSharp.Common": "75.1.142",
+          "CefSharp.WinForms": "75.1.142"
+        },
+        "compile": {
+          "bin/placeholder/IEspeedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IEspeedLibrary.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win-x64": {
+      "cef.redist.x64/75.1.14": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "cef.redist.x86/75.1.14": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "CefSharp.Common/75.1.142": {
+        "type": "package",
+        "dependencies": {
+          "cef.redist.x64": "[75.1.14]",
+          "cef.redist.x86": "[75.1.14]"
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "CefSharp.WinForms/75.1.142": {
+        "type": "package",
+        "dependencies": {
+          "CefSharp.Common": "[75.1.142]"
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "MSTest.TestAdapter/2.0.0": {
+        "type": "package",
+        "build": {
+          "build/net45/MSTest.TestAdapter.props": {},
+          "build/net45/MSTest.TestAdapter.targets": {}
+        }
+      },
+      "MSTest.TestFramework/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        }
+      },
+      "IEspeedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.2",
+        "dependencies": {
+          "CefSharp.Common": "75.1.142",
+          "CefSharp.WinForms": "75.1.142"
+        },
+        "compile": {
+          "bin/placeholder/IEspeedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IEspeedLibrary.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win-x86": {
+      "cef.redist.x64/75.1.14": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "cef.redist.x86/75.1.14": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "CefSharp.Common/75.1.142": {
+        "type": "package",
+        "dependencies": {
+          "cef.redist.x64": "[75.1.14]",
+          "cef.redist.x86": "[75.1.14]"
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "CefSharp.WinForms/75.1.142": {
+        "type": "package",
+        "dependencies": {
+          "CefSharp.Common": "[75.1.142]"
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "MSTest.TestAdapter/2.0.0": {
+        "type": "package",
+        "build": {
+          "build/net45/MSTest.TestAdapter.props": {},
+          "build/net45/MSTest.TestAdapter.targets": {}
+        }
+      },
+      "MSTest.TestFramework/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        }
+      },
+      "IEspeedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.2",
+        "dependencies": {
+          "CefSharp.Common": "75.1.142",
+          "CefSharp.WinForms": "75.1.142"
+        },
+        "compile": {
+          "bin/placeholder/IEspeedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IEspeedLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "cef.redist.x64/75.1.14": {
+      "sha512": "t0JUqnLobTqDXNHBkdtPaoKWO9lMIBfFUdlv3NsGlMz5LVj8K59W2gtCOnYV9RVBmreFcFs755blw09vU/6kZw==",
+      "type": "package",
+      "path": "cef.redist.x64/75.1.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CEF/README.txt",
+        "CEF/cef.pak",
+        "CEF/cef_100_percent.pak",
+        "CEF/cef_200_percent.pak",
+        "CEF/cef_extensions.pak",
+        "CEF/chrome_elf.dll",
+        "CEF/d3dcompiler_47.dll",
+        "CEF/devtools_resources.pak",
+        "CEF/icudtl.dat",
+        "CEF/libEGL.dll",
+        "CEF/libGLESv2.dll",
+        "CEF/libcef.dll",
+        "CEF/locales/am.pak",
+        "CEF/locales/ar.pak",
+        "CEF/locales/bg.pak",
+        "CEF/locales/bn.pak",
+        "CEF/locales/ca.pak",
+        "CEF/locales/cs.pak",
+        "CEF/locales/da.pak",
+        "CEF/locales/de.pak",
+        "CEF/locales/el.pak",
+        "CEF/locales/en-GB.pak",
+        "CEF/locales/en-US.pak",
+        "CEF/locales/es-419.pak",
+        "CEF/locales/es.pak",
+        "CEF/locales/et.pak",
+        "CEF/locales/fa.pak",
+        "CEF/locales/fi.pak",
+        "CEF/locales/fil.pak",
+        "CEF/locales/fr.pak",
+        "CEF/locales/gu.pak",
+        "CEF/locales/he.pak",
+        "CEF/locales/hi.pak",
+        "CEF/locales/hr.pak",
+        "CEF/locales/hu.pak",
+        "CEF/locales/id.pak",
+        "CEF/locales/it.pak",
+        "CEF/locales/ja.pak",
+        "CEF/locales/kn.pak",
+        "CEF/locales/ko.pak",
+        "CEF/locales/lt.pak",
+        "CEF/locales/lv.pak",
+        "CEF/locales/ml.pak",
+        "CEF/locales/mr.pak",
+        "CEF/locales/ms.pak",
+        "CEF/locales/nb.pak",
+        "CEF/locales/nl.pak",
+        "CEF/locales/pl.pak",
+        "CEF/locales/pt-BR.pak",
+        "CEF/locales/pt-PT.pak",
+        "CEF/locales/ro.pak",
+        "CEF/locales/ru.pak",
+        "CEF/locales/sk.pak",
+        "CEF/locales/sl.pak",
+        "CEF/locales/sr.pak",
+        "CEF/locales/sv.pak",
+        "CEF/locales/sw.pak",
+        "CEF/locales/ta.pak",
+        "CEF/locales/te.pak",
+        "CEF/locales/th.pak",
+        "CEF/locales/tr.pak",
+        "CEF/locales/uk.pak",
+        "CEF/locales/vi.pak",
+        "CEF/locales/zh-CN.pak",
+        "CEF/locales/zh-TW.pak",
+        "CEF/natives_blob.bin",
+        "CEF/snapshot_blob.bin",
+        "CEF/swiftshader/libEGL.dll",
+        "CEF/swiftshader/libGLESv2.dll",
+        "CEF/v8_context_snapshot.bin",
+        "build/cef.redist.x64.props",
+        "cef.redist.x64.75.1.14.nupkg.sha512",
+        "cef.redist.x64.nuspec"
+      ]
+    },
+    "cef.redist.x86/75.1.14": {
+      "sha512": "fl23A9mKdgHrI09Mx/uAJOE3txCbkNmX31RqxT8Ue9Hu4M3CZTPAI2Nn3te3a1+jpj+5gNbIbeotvwwXUAhA7Q==",
+      "type": "package",
+      "path": "cef.redist.x86/75.1.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CEF/README.txt",
+        "CEF/cef.pak",
+        "CEF/cef_100_percent.pak",
+        "CEF/cef_200_percent.pak",
+        "CEF/cef_extensions.pak",
+        "CEF/chrome_elf.dll",
+        "CEF/d3dcompiler_47.dll",
+        "CEF/devtools_resources.pak",
+        "CEF/icudtl.dat",
+        "CEF/libEGL.dll",
+        "CEF/libGLESv2.dll",
+        "CEF/libcef.dll",
+        "CEF/locales/am.pak",
+        "CEF/locales/ar.pak",
+        "CEF/locales/bg.pak",
+        "CEF/locales/bn.pak",
+        "CEF/locales/ca.pak",
+        "CEF/locales/cs.pak",
+        "CEF/locales/da.pak",
+        "CEF/locales/de.pak",
+        "CEF/locales/el.pak",
+        "CEF/locales/en-GB.pak",
+        "CEF/locales/en-US.pak",
+        "CEF/locales/es-419.pak",
+        "CEF/locales/es.pak",
+        "CEF/locales/et.pak",
+        "CEF/locales/fa.pak",
+        "CEF/locales/fi.pak",
+        "CEF/locales/fil.pak",
+        "CEF/locales/fr.pak",
+        "CEF/locales/gu.pak",
+        "CEF/locales/he.pak",
+        "CEF/locales/hi.pak",
+        "CEF/locales/hr.pak",
+        "CEF/locales/hu.pak",
+        "CEF/locales/id.pak",
+        "CEF/locales/it.pak",
+        "CEF/locales/ja.pak",
+        "CEF/locales/kn.pak",
+        "CEF/locales/ko.pak",
+        "CEF/locales/lt.pak",
+        "CEF/locales/lv.pak",
+        "CEF/locales/ml.pak",
+        "CEF/locales/mr.pak",
+        "CEF/locales/ms.pak",
+        "CEF/locales/nb.pak",
+        "CEF/locales/nl.pak",
+        "CEF/locales/pl.pak",
+        "CEF/locales/pt-BR.pak",
+        "CEF/locales/pt-PT.pak",
+        "CEF/locales/ro.pak",
+        "CEF/locales/ru.pak",
+        "CEF/locales/sk.pak",
+        "CEF/locales/sl.pak",
+        "CEF/locales/sr.pak",
+        "CEF/locales/sv.pak",
+        "CEF/locales/sw.pak",
+        "CEF/locales/ta.pak",
+        "CEF/locales/te.pak",
+        "CEF/locales/th.pak",
+        "CEF/locales/tr.pak",
+        "CEF/locales/uk.pak",
+        "CEF/locales/vi.pak",
+        "CEF/locales/zh-CN.pak",
+        "CEF/locales/zh-TW.pak",
+        "CEF/natives_blob.bin",
+        "CEF/snapshot_blob.bin",
+        "CEF/swiftshader/libEGL.dll",
+        "CEF/swiftshader/libGLESv2.dll",
+        "CEF/v8_context_snapshot.bin",
+        "build/cef.redist.x86.props",
+        "cef.redist.x86.75.1.14.nupkg.sha512",
+        "cef.redist.x86.nuspec"
+      ]
+    },
+    "CefSharp.Common/75.1.142": {
+      "sha512": "pSDOHQf5qPqIAUkhQ2DyO+vNER0EWqRXA/W307nmIXdWKlAfg4iodGHEHk0+IFxUek8vHj5xSHrN3h3oqsZLYA==",
+      "type": "package",
+      "path": "cefsharp.common/75.1.142",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CefSharp/x64/CefSharp.BrowserSubprocess.Core.dll",
+        "CefSharp/x64/CefSharp.BrowserSubprocess.Core.pdb",
+        "CefSharp/x64/CefSharp.BrowserSubprocess.exe",
+        "CefSharp/x64/CefSharp.BrowserSubprocess.pdb",
+        "CefSharp/x64/CefSharp.Core.dll",
+        "CefSharp/x64/CefSharp.Core.pdb",
+        "CefSharp/x64/CefSharp.Core.xml",
+        "CefSharp/x64/CefSharp.XML",
+        "CefSharp/x64/CefSharp.dll",
+        "CefSharp/x64/CefSharp.pdb",
+        "CefSharp/x86/CefSharp.BrowserSubprocess.Core.dll",
+        "CefSharp/x86/CefSharp.BrowserSubprocess.Core.pdb",
+        "CefSharp/x86/CefSharp.BrowserSubprocess.exe",
+        "CefSharp/x86/CefSharp.BrowserSubprocess.pdb",
+        "CefSharp/x86/CefSharp.Core.dll",
+        "CefSharp/x86/CefSharp.Core.pdb",
+        "CefSharp/x86/CefSharp.Core.xml",
+        "CefSharp/x86/CefSharp.XML",
+        "CefSharp/x86/CefSharp.dll",
+        "CefSharp/x86/CefSharp.pdb",
+        "build/CefSharp.Common.props",
+        "build/CefSharp.Common.targets",
+        "cefsharp.common.75.1.142.nupkg.sha512",
+        "cefsharp.common.nuspec",
+        "src/CefSharp.BrowserSubprocess.Core/AssemblyInfo.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/Async/JavascriptAsyncMethodCallback.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/Async/JavascriptAsyncMethodCallback.h",
+        "src/CefSharp.BrowserSubprocess.Core/Async/JavascriptAsyncMethodHandler.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/Async/JavascriptAsyncMethodHandler.h",
+        "src/CefSharp.BrowserSubprocess.Core/Async/JavascriptAsyncMethodWrapper.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/Async/JavascriptAsyncMethodWrapper.h",
+        "src/CefSharp.BrowserSubprocess.Core/Async/JavascriptAsyncObjectWrapper.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/Async/JavascriptAsyncObjectWrapper.h",
+        "src/CefSharp.BrowserSubprocess.Core/BindObjectAsyncHandler.h",
+        "src/CefSharp.BrowserSubprocess.Core/CefAppUnmanagedWrapper.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/CefAppUnmanagedWrapper.h",
+        "src/CefSharp.BrowserSubprocess.Core/CefBrowserWrapper.h",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptCallbackRegistry.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptCallbackRegistry.h",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptCallbackWrapper.h",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptMethodHandler.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptMethodHandler.h",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptMethodWrapper.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptMethodWrapper.h",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptObjectWrapper.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptObjectWrapper.h",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptPostMessageHandler.h",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptPropertyHandler.h",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptPropertyWrapper.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptPropertyWrapper.h",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptRootObjectWrapper.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/JavascriptRootObjectWrapper.h",
+        "src/CefSharp.BrowserSubprocess.Core/RegisterBoundObjectHandler.h",
+        "src/CefSharp.BrowserSubprocess.Core/RegisterBoundObjectRegistry.h",
+        "src/CefSharp.BrowserSubprocess.Core/Serialization/JsObjectsSerialization.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/Serialization/JsObjectsSerialization.h",
+        "src/CefSharp.BrowserSubprocess.Core/Serialization/V8Serialization.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/Serialization/V8Serialization.h",
+        "src/CefSharp.BrowserSubprocess.Core/Stdafx.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/Stdafx.h",
+        "src/CefSharp.BrowserSubprocess.Core/SubProcess.h",
+        "src/CefSharp.BrowserSubprocess.Core/SubProcessApp.h",
+        "src/CefSharp.BrowserSubprocess.Core/TypeUtils.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/TypeUtils.h",
+        "src/CefSharp.BrowserSubprocess.Core/WcfEnabledSubProcess.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/WcfEnabledSubProcess.h",
+        "src/CefSharp.BrowserSubprocess.Core/Wrapper/Browser.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/Wrapper/Browser.h",
+        "src/CefSharp.BrowserSubprocess.Core/Wrapper/Frame.cpp",
+        "src/CefSharp.BrowserSubprocess.Core/Wrapper/Frame.h",
+        "src/CefSharp.BrowserSubprocess.Core/Wrapper/V8Context.h",
+        "src/CefSharp.BrowserSubprocess.Core/resource.h",
+        "src/CefSharp.BrowserSubprocess.Core/vcclr_local.h",
+        "src/CefSharp.BrowserSubprocess/Program.cs",
+        "src/CefSharp.BrowserSubprocess/Properties/AssemblyInfo.cs",
+        "src/CefSharp.Core/AbstractCefSettings.h",
+        "src/CefSharp.Core/AssemblyInfo.cpp",
+        "src/CefSharp.Core/BrowserSettings.h",
+        "src/CefSharp.Core/Cef.h",
+        "src/CefSharp.Core/CookieManager.cpp",
+        "src/CefSharp.Core/CookieManager.h",
+        "src/CefSharp.Core/Internals/CefAuthCallbackWrapper.h",
+        "src/CefSharp.Core/Internals/CefBeforeDownloadCallbackWrapper.h",
+        "src/CefSharp.Core/Internals/CefBrowserHostWrapper.cpp",
+        "src/CefSharp.Core/Internals/CefBrowserHostWrapper.h",
+        "src/CefSharp.Core/Internals/CefCallbackWrapper.h",
+        "src/CefSharp.Core/Internals/CefCertificateCallbackWrapper.h",
+        "src/CefSharp.Core/Internals/CefCompletionCallbackAdapter.h",
+        "src/CefSharp.Core/Internals/CefContextMenuParamsWrapper.cpp",
+        "src/CefSharp.Core/Internals/CefContextMenuParamsWrapper.h",
+        "src/CefSharp.Core/Internals/CefCookieAccessFilterAdapter.h",
+        "src/CefSharp.Core/Internals/CefDeleteCookiesCallbackAdapter.h",
+        "src/CefSharp.Core/Internals/CefDownloadItemCallbackWrapper.h",
+        "src/CefSharp.Core/Internals/CefDragDataWrapper.h",
+        "src/CefSharp.Core/Internals/CefExtensionHandlerAdapter.h",
+        "src/CefSharp.Core/Internals/CefExtensionWrapper.cpp",
+        "src/CefSharp.Core/Internals/CefExtensionWrapper.h",
+        "src/CefSharp.Core/Internals/CefFileDialogCallbackWrapper.h",
+        "src/CefSharp.Core/Internals/CefFrameWrapper.cpp",
+        "src/CefSharp.Core/Internals/CefFrameWrapper.h",
+        "src/CefSharp.Core/Internals/CefGetExtensionResourceCallbackWrapper.h",
+        "src/CefSharp.Core/Internals/CefImageWrapper.h",
+        "src/CefSharp.Core/Internals/CefJSDialogCallbackWrapper.h",
+        "src/CefSharp.Core/Internals/CefMenuModelWrapper.h",
+        "src/CefSharp.Core/Internals/CefNavigationEntryVisitorAdapter.h",
+        "src/CefSharp.Core/Internals/CefPdfPrintCallbackWrapper.h",
+        "src/CefSharp.Core/Internals/CefPostDataElementWrapper.h",
+        "src/CefSharp.Core/Internals/CefPostDataWrapper.h",
+        "src/CefSharp.Core/Internals/CefRegisterCdmCallbackAdapter.h",
+        "src/CefSharp.Core/Internals/CefRequestCallbackWrapper.h",
+        "src/CefSharp.Core/Internals/CefRequestContextHandlerAdapter.cpp",
+        "src/CefSharp.Core/Internals/CefRequestContextHandlerAdapter.h",
+        "src/CefSharp.Core/Internals/CefRequestWrapper.cpp",
+        "src/CefSharp.Core/Internals/CefRequestWrapper.h",
+        "src/CefSharp.Core/Internals/CefResolveCallbackAdapter.h",
+        "src/CefSharp.Core/Internals/CefResourceReadCallbackWrapper.h",
+        "src/CefSharp.Core/Internals/CefResourceRequestHandlerAdapter.h",
+        "src/CefSharp.Core/Internals/CefResourceSkipCallbackWrapper.h",
+        "src/CefSharp.Core/Internals/CefResponseFilterAdapter.h",
+        "src/CefSharp.Core/Internals/CefResponseWrapper.h",
+        "src/CefSharp.Core/Internals/CefRunContextMenuCallbackWrapper.h",
+        "src/CefSharp.Core/Internals/CefRunFileDialogCallbackAdapter.h",
+        "src/CefSharp.Core/Internals/CefSchemeRegistrarWrapper.h",
+        "src/CefSharp.Core/Internals/CefSetCookieCallbackAdapter.h",
+        "src/CefSharp.Core/Internals/CefSharpApp.h",
+        "src/CefSharp.Core/Internals/CefSharpBrowserWrapper.cpp",
+        "src/CefSharp.Core/Internals/CefSharpBrowserWrapper.h",
+        "src/CefSharp.Core/Internals/CefSslInfoWrapper.h",
+        "src/CefSharp.Core/Internals/CefTaskScheduler.h",
+        "src/CefSharp.Core/Internals/CefTaskWrapper.h",
+        "src/CefSharp.Core/Internals/CefValueWrapper.cpp",
+        "src/CefSharp.Core/Internals/CefValueWrapper.h",
+        "src/CefSharp.Core/Internals/CefWrapper.h",
+        "src/CefSharp.Core/Internals/CefWriteHandlerWrapper.h",
+        "src/CefSharp.Core/Internals/ClientAdapter.cpp",
+        "src/CefSharp.Core/Internals/ClientAdapter.h",
+        "src/CefSharp.Core/Internals/CookieVisitor.cpp",
+        "src/CefSharp.Core/Internals/CookieVisitor.h",
+        "src/CefSharp.Core/Internals/JavascriptCallbackFactory.cpp",
+        "src/CefSharp.Core/Internals/JavascriptCallbackFactory.h",
+        "src/CefSharp.Core/Internals/JavascriptCallbackProxy.cpp",
+        "src/CefSharp.Core/Internals/JavascriptCallbackProxy.h",
+        "src/CefSharp.Core/Internals/MCefRefPtr.h",
+        "src/CefSharp.Core/Internals/Messaging/Messages.h",
+        "src/CefSharp.Core/Internals/PluginVisitor.h",
+        "src/CefSharp.Core/Internals/RenderClientAdapter.h",
+        "src/CefSharp.Core/Internals/ReportUnhandledExceptions.h",
+        "src/CefSharp.Core/Internals/Serialization/JsObjectsSerialization.cpp",
+        "src/CefSharp.Core/Internals/Serialization/JsObjectsSerialization.h",
+        "src/CefSharp.Core/Internals/Serialization/ObjectsSerialization.cpp",
+        "src/CefSharp.Core/Internals/Serialization/ObjectsSerialization.h",
+        "src/CefSharp.Core/Internals/Serialization/Primitives.cpp",
+        "src/CefSharp.Core/Internals/Serialization/Primitives.h",
+        "src/CefSharp.Core/Internals/Serialization/V8Serialization.cpp",
+        "src/CefSharp.Core/Internals/Serialization/V8Serialization.h",
+        "src/CefSharp.Core/Internals/StringUtils.h",
+        "src/CefSharp.Core/Internals/StringVisitor.cpp",
+        "src/CefSharp.Core/Internals/StringVisitor.h",
+        "src/CefSharp.Core/Internals/TypeConversion.h",
+        "src/CefSharp.Core/ManagedCefBrowserAdapter.cpp",
+        "src/CefSharp.Core/ManagedCefBrowserAdapter.h",
+        "src/CefSharp.Core/NativeMethodWrapper.cpp",
+        "src/CefSharp.Core/NativeMethodWrapper.h",
+        "src/CefSharp.Core/PopupFeatures.h",
+        "src/CefSharp.Core/RequestContext.cpp",
+        "src/CefSharp.Core/RequestContext.h",
+        "src/CefSharp.Core/RequestContextSettings.h",
+        "src/CefSharp.Core/ResourceHandlerWrapper.cpp",
+        "src/CefSharp.Core/ResourceHandlerWrapper.h",
+        "src/CefSharp.Core/SchemeHandlerFactoryWrapper.h",
+        "src/CefSharp.Core/Stdafx.cpp",
+        "src/CefSharp.Core/Stdafx.h",
+        "src/CefSharp.Core/WindowInfo.h",
+        "src/CefSharp.Core/resource.h",
+        "src/CefSharp.Core/vcclr_local.h",
+        "src/CefSharp/AsyncExtensions.cs",
+        "src/CefSharp/BindingOptions.cs",
+        "src/CefSharp/Callback/IAuthCallback.cs",
+        "src/CefSharp/Callback/IBeforeDownloadCallback.cs",
+        "src/CefSharp/Callback/ICallback.cs",
+        "src/CefSharp/Callback/ICompletionCallback.cs",
+        "src/CefSharp/Callback/IDeleteCookiesCallback.cs",
+        "src/CefSharp/Callback/IDownloadItemCallback.cs",
+        "src/CefSharp/Callback/IFileDialogCallback.cs",
+        "src/CefSharp/Callback/IGetExtensionResourceCallback.cs",
+        "src/CefSharp/Callback/IJavascriptCallback.cs",
+        "src/CefSharp/Callback/IJsDialogCallback.cs",
+        "src/CefSharp/Callback/IPrintToPdfCallback.cs",
+        "src/CefSharp/Callback/IRegisterCdmCallback.cs",
+        "src/CefSharp/Callback/IRequestCallback.cs",
+        "src/CefSharp/Callback/IResolveCallback.cs",
+        "src/CefSharp/Callback/IResourceReadCallback.cs",
+        "src/CefSharp/Callback/IResourceSkipCallback.cs",
+        "src/CefSharp/Callback/IRunContextMenuCallback.cs",
+        "src/CefSharp/Callback/IRunFileDialogCallback.cs",
+        "src/CefSharp/Callback/ISelectClientCertificateCallback.cs",
+        "src/CefSharp/Callback/ISetCookieCallback.cs",
+        "src/CefSharp/Callback/TaskCompletionCallback.cs",
+        "src/CefSharp/Callback/TaskDeleteCookiesCallback.cs",
+        "src/CefSharp/Callback/TaskPrintToPdfCallback.cs",
+        "src/CefSharp/Callback/TaskRegisterCdmCallback.cs",
+        "src/CefSharp/Callback/TaskResolveCallback.cs",
+        "src/CefSharp/Callback/TaskSetCookieCallback.cs",
+        "src/CefSharp/CdmRegistration.cs",
+        "src/CefSharp/CefCustomScheme.cs",
+        "src/CefSharp/CefLibraryHandle.cs",
+        "src/CefSharp/CefSharpSettings.cs",
+        "src/CefSharp/Cookie.cs",
+        "src/CefSharp/DefaultApp.cs",
+        "src/CefSharp/DependencyChecker.cs",
+        "src/CefSharp/DomNode.cs",
+        "src/CefSharp/DownloadItem.cs",
+        "src/CefSharp/Enums/AlphaType.cs",
+        "src/CefSharp/Enums/CdmRegistrationErrorCode.cs",
+        "src/CefSharp/Enums/CefErrorCode.cs",
+        "src/CefSharp/Enums/CefEventFlags.cs",
+        "src/CefSharp/Enums/CefFileDialogFlags.cs",
+        "src/CefSharp/Enums/CefFileDialogMode.cs",
+        "src/CefSharp/Enums/CefFocusSource.cs",
+        "src/CefSharp/Enums/CefJsDialogType.cs",
+        "src/CefSharp/Enums/CefMenuCommand.cs",
+        "src/CefSharp/Enums/CefPdfPrintMarginType.cs",
+        "src/CefSharp/Enums/CefReturnValue.cs",
+        "src/CefSharp/Enums/CefState.cs",
+        "src/CefSharp/Enums/CefTerminationStatus.cs",
+        "src/CefSharp/Enums/CefThreadIds.cs",
+        "src/CefSharp/Enums/CertStatus.cs",
+        "src/CefSharp/Enums/ChannelLayout.cs",
+        "src/CefSharp/Enums/ColorType.cs",
+        "src/CefSharp/Enums/ContextMenuEditState.cs",
+        "src/CefSharp/Enums/ContextMenuMediaState.cs",
+        "src/CefSharp/Enums/ContextMenuMediaType.cs",
+        "src/CefSharp/Enums/ContextMenuType.cs",
+        "src/CefSharp/Enums/CursorType.cs",
+        "src/CefSharp/Enums/DragOperationsMask.cs",
+        "src/CefSharp/Enums/FilterStatus.cs",
+        "src/CefSharp/Enums/KeyEventType.cs",
+        "src/CefSharp/Enums/KeyType.cs",
+        "src/CefSharp/Enums/LogSeverity.cs",
+        "src/CefSharp/Enums/MenuItemType.cs",
+        "src/CefSharp/Enums/MouseButtonType.cs",
+        "src/CefSharp/Enums/PaintElementType.cs",
+        "src/CefSharp/Enums/PluginPolicy.cs",
+        "src/CefSharp/Enums/PointerType.cs",
+        "src/CefSharp/Enums/PostDataElementType.cs",
+        "src/CefSharp/Enums/ReferrerPolicy.cs",
+        "src/CefSharp/Enums/ResourceType.cs",
+        "src/CefSharp/Enums/SchemeOptions.cs",
+        "src/CefSharp/Enums/SslContentStatus.cs",
+        "src/CefSharp/Enums/SslVersion.cs",
+        "src/CefSharp/Enums/TextInputMode.cs",
+        "src/CefSharp/Enums/TouchEventType.cs",
+        "src/CefSharp/Enums/TransitionType.cs",
+        "src/CefSharp/Enums/UrlRequestFlags.cs",
+        "src/CefSharp/Enums/UrlRequestStatus.cs",
+        "src/CefSharp/Enums/ValueType.cs",
+        "src/CefSharp/Enums/WindowOpenDisposition.cs",
+        "src/CefSharp/Event/AddressChangedEventArgs.cs",
+        "src/CefSharp/Event/ConsoleMessageEventArgs.cs",
+        "src/CefSharp/Event/FrameLoadEndEventArgs.cs",
+        "src/CefSharp/Event/FrameLoadStartEventArgs.cs",
+        "src/CefSharp/Event/JavascriptBindingCompleteEventArgs.cs",
+        "src/CefSharp/Event/JavascriptBindingEventArgs.cs",
+        "src/CefSharp/Event/JavascriptBindingMultipleCompleteEventArgs.cs",
+        "src/CefSharp/Event/JavascriptMessageReceivedEventArgs.cs",
+        "src/CefSharp/Event/LoadErrorEventArgs.cs",
+        "src/CefSharp/Event/LoadingStateChangedEventArgs.cs",
+        "src/CefSharp/Event/StatusMessageEventHandler.cs",
+        "src/CefSharp/Event/TitleChangedEventArgs.cs",
+        "src/CefSharp/Handler/DefaultRequestHandler.cs",
+        "src/CefSharp/Handler/IAccessibilityHandler.cs",
+        "src/CefSharp/Handler/IAudioHandler.cs",
+        "src/CefSharp/Handler/IBrowserProcessHandler.cs",
+        "src/CefSharp/Handler/IContextMenuHandler.cs",
+        "src/CefSharp/Handler/ICookieAccessFilter.cs",
+        "src/CefSharp/Handler/IDialogHandler.cs",
+        "src/CefSharp/Handler/IDisplayHandler.cs",
+        "src/CefSharp/Handler/IDownloadHandler.cs",
+        "src/CefSharp/Handler/IDragHandler.cs",
+        "src/CefSharp/Handler/IExtensionHandler.cs",
+        "src/CefSharp/Handler/IFindHandler.cs",
+        "src/CefSharp/Handler/IFocusHandler.cs",
+        "src/CefSharp/Handler/IJsDialogHandler.cs",
+        "src/CefSharp/Handler/IKeyboardHandler.cs",
+        "src/CefSharp/Handler/ILifeSpanHandler.cs",
+        "src/CefSharp/Handler/ILoadHandler.cs",
+        "src/CefSharp/Handler/IRenderProcessMessageHandler.cs",
+        "src/CefSharp/Handler/IRequestContextHandler.cs",
+        "src/CefSharp/Handler/IRequestHandler.cs",
+        "src/CefSharp/Handler/IResourceHandler.cs",
+        "src/CefSharp/Handler/IResourceRequestHandler.cs",
+        "src/CefSharp/Handler/RequestHandler.cs",
+        "src/CefSharp/Handler/ResourceRequestHandler.cs",
+        "src/CefSharp/IApp.cs",
+        "src/CefSharp/IBrowser.cs",
+        "src/CefSharp/IBrowserHost.cs",
+        "src/CefSharp/IBrowserSettings.cs",
+        "src/CefSharp/IContextMenuParams.cs",
+        "src/CefSharp/ICookieManager.cs",
+        "src/CefSharp/IDomNode.cs",
+        "src/CefSharp/IDragData.cs",
+        "src/CefSharp/IExtension.cs",
+        "src/CefSharp/IFrame.cs",
+        "src/CefSharp/IImage.cs",
+        "src/CefSharp/IJavascriptObjectRepository.cs",
+        "src/CefSharp/IMenuModel.cs",
+        "src/CefSharp/IPopupFeatures.cs",
+        "src/CefSharp/IPostData.cs",
+        "src/CefSharp/IPostDataElement.cs",
+        "src/CefSharp/IRequest.cs",
+        "src/CefSharp/IRequestContext.cs",
+        "src/CefSharp/IResourceRequestHandlerFactory.cs",
+        "src/CefSharp/IResponse.cs",
+        "src/CefSharp/IResponseFilter.cs",
+        "src/CefSharp/ISchemeRegistrar.cs",
+        "src/CefSharp/ISslInfo.cs",
+        "src/CefSharp/IValue.cs",
+        "src/CefSharp/IWebBrowser.cs",
+        "src/CefSharp/IWindowInfo.cs",
+        "src/CefSharp/Internals/BrowserProcessResponse.cs",
+        "src/CefSharp/Internals/BrowserProcessService.cs",
+        "src/CefSharp/Internals/BrowserProcessServiceHost.cs",
+        "src/CefSharp/Internals/ByteArrayResourceHandler.cs",
+        "src/CefSharp/Internals/CefSharpArguments.cs",
+        "src/CefSharp/Internals/CefTimeUtils.cs",
+        "src/CefSharp/Internals/CommandLineArgsParser.cs",
+        "src/CefSharp/Internals/ConcurrentMethodRunnerQueue.cs",
+        "src/CefSharp/Internals/DateTimeUtils.cs",
+        "src/CefSharp/Internals/FileResourceHandler.cs",
+        "src/CefSharp/Internals/IBrowserAdapter.cs",
+        "src/CefSharp/Internals/IBrowserProcess.cs",
+        "src/CefSharp/Internals/IJavascriptCallbackFactory.cs",
+        "src/CefSharp/Internals/IMethodRunnerQueue.cs",
+        "src/CefSharp/Internals/IRenderWebBrowser.cs",
+        "src/CefSharp/Internals/ITaskScheduler.cs",
+        "src/CefSharp/Internals/IWebBrowserInternal.cs",
+        "src/CefSharp/Internals/InMemoryResourceRequestHandler.cs",
+        "src/CefSharp/Internals/IntPtrExtensions.cs",
+        "src/CefSharp/Internals/InternalWebBrowserExtensions.cs",
+        "src/CefSharp/Internals/JavascriptCallback.cs",
+        "src/CefSharp/Internals/JavascriptCallbackEndpointBehavior.cs",
+        "src/CefSharp/Internals/JavascriptCallbackSurrogate.cs",
+        "src/CefSharp/Internals/JavascriptMethod.cs",
+        "src/CefSharp/Internals/JavascriptObject.cs",
+        "src/CefSharp/Internals/JavascriptObjectRepository.cs",
+        "src/CefSharp/Internals/JavascriptProperty.cs",
+        "src/CefSharp/Internals/MethodInvocation.cs",
+        "src/CefSharp/Internals/MethodInvocationCompleteArgs.cs",
+        "src/CefSharp/Internals/MethodInvocationResult.cs",
+        "src/CefSharp/Internals/MethodParameter.cs",
+        "src/CefSharp/Internals/MethodRunnerQueue.cs",
+        "src/CefSharp/Internals/PendingTaskRepository.cs",
+        "src/CefSharp/Internals/ReflectionUtils.cs",
+        "src/CefSharp/Internals/RenderprocessClientFactory.cs",
+        "src/CefSharp/Internals/TaskExtensions.cs",
+        "src/CefSharp/Internals/WCFExtensions.cs",
+        "src/CefSharp/JavascriptBindingExtensions.cs",
+        "src/CefSharp/JavascriptException.cs",
+        "src/CefSharp/JavascriptIgnoreAttribute.cs",
+        "src/CefSharp/JavascriptResponse.cs",
+        "src/CefSharp/JavascriptStackFrame.cs",
+        "src/CefSharp/ModelBinding/BindingContext.cs",
+        "src/CefSharp/ModelBinding/BindingMemberInfo.cs",
+        "src/CefSharp/ModelBinding/DefaultBinder.cs",
+        "src/CefSharp/ModelBinding/DefaultFieldNameConverter.cs",
+        "src/CefSharp/ModelBinding/IBinder.cs",
+        "src/CefSharp/ModelBinding/IFieldNameConverter.cs",
+        "src/CefSharp/ModelBinding/IMethodInterceptor.cs",
+        "src/CefSharp/ModelBinding/ModelBindingExtensions.cs",
+        "src/CefSharp/NavigationEntry.cs",
+        "src/CefSharp/PdfPrintSettings.cs",
+        "src/CefSharp/PostDataExtensions.cs",
+        "src/CefSharp/Properties/AssemblyInfo.cs",
+        "src/CefSharp/ProxyOptions.cs",
+        "src/CefSharp/RenderProcess/IRenderProcessHandler.cs",
+        "src/CefSharp/RenderProcess/IV8Context.cs",
+        "src/CefSharp/RenderProcess/V8Exception.cs",
+        "src/CefSharp/RequestContextExtensions.cs",
+        "src/CefSharp/ResourceHandler.cs",
+        "src/CefSharp/ResourceRequestHandlerFactory.cs",
+        "src/CefSharp/ResourceRequestHandlerFactoryItem.cs",
+        "src/CefSharp/SchemeHandler/FolderSchemeHandlerFactory.cs",
+        "src/CefSharp/SchemeHandler/ISchemeHandlerFactory.cs",
+        "src/CefSharp/SslStatus.cs",
+        "src/CefSharp/Structs/CompositionUnderline.cs",
+        "src/CefSharp/Structs/CursorInfo.cs",
+        "src/CefSharp/Structs/DraggableRegion.cs",
+        "src/CefSharp/Structs/KeyEvent.cs",
+        "src/CefSharp/Structs/MouseEvent.cs",
+        "src/CefSharp/Structs/Point.cs",
+        "src/CefSharp/Structs/Range.cs",
+        "src/CefSharp/Structs/Rect.cs",
+        "src/CefSharp/Structs/ResolveCallbackResult.cs",
+        "src/CefSharp/Structs/ScreenInfo.cs",
+        "src/CefSharp/Structs/Size.cs",
+        "src/CefSharp/Structs/TouchEvent.cs",
+        "src/CefSharp/V8Extension.cs",
+        "src/CefSharp/Visitor/ICookieVisitor.cs",
+        "src/CefSharp/Visitor/INavigationEntryVisitor.cs",
+        "src/CefSharp/Visitor/IStringVisitor.cs",
+        "src/CefSharp/Visitor/IWebPluginInfoVisitor.cs",
+        "src/CefSharp/Visitor/TaskCookieVisitor.cs",
+        "src/CefSharp/Visitor/TaskNavigationEntryVisitor.cs",
+        "src/CefSharp/Visitor/TaskStringVisitor.cs",
+        "src/CefSharp/Visitor/TaskWebPluginInfoVisitor.cs",
+        "src/CefSharp/Web/HtmlString.cs",
+        "src/CefSharp/Web/JsonString.cs",
+        "src/CefSharp/WebBrowserExtensions.cs",
+        "src/CefSharp/WebPluginInfo.cs"
+      ]
+    },
+    "CefSharp.WinForms/75.1.142": {
+      "sha512": "8HgQTFy2jMZpiU7TrZFNb5Z6e8Rgqbgrwd2B8NjI/cDqvQoVXEk3+YHrPJbkIvXEX8TFacUUY536pLAcvx43sA==",
+      "type": "package",
+      "path": "cefsharp.winforms/75.1.142",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CefSharp/x64/CefSharp.WinForms.XML",
+        "CefSharp/x64/CefSharp.WinForms.dll",
+        "CefSharp/x64/CefSharp.WinForms.pdb",
+        "CefSharp/x86/CefSharp.WinForms.XML",
+        "CefSharp/x86/CefSharp.WinForms.dll",
+        "CefSharp/x86/CefSharp.WinForms.pdb",
+        "Readme.txt",
+        "build/CefSharp.WinForms.props",
+        "build/CefSharp.WinForms.targets",
+        "cefsharp.winforms.75.1.142.nupkg.sha512",
+        "cefsharp.winforms.nuspec",
+        "src/CefSharp.WinForms/CefSettings.cs",
+        "src/CefSharp.WinForms/ChromiumWebBrowser.cs",
+        "src/CefSharp.WinForms/ChromiumWebBrowserDesigner.cs",
+        "src/CefSharp.WinForms/IWinFormsWebBrowser.cs",
+        "src/CefSharp.WinForms/Internals/ControlExtensions.cs",
+        "src/CefSharp.WinForms/Internals/DefaultFocusHandler.cs",
+        "src/CefSharp.WinForms/Internals/NativeMethods.cs",
+        "src/CefSharp.WinForms/Internals/ParentFormMessageInterceptor.cs",
+        "src/CefSharp.WinForms/Properties/AssemblyInfo.cs"
+      ]
+    },
+    "MSTest.TestAdapter/2.0.0": {
+      "sha512": "VoXDhx+a/44RmQYpkrYWe3D6AP6kjqibe02NOj1t8Zn9uo8e90gXW22SYj3geEwNTcEdMg2XMq0SI2P0Fl2Trw==",
+      "type": "package",
+      "path": "mstest.testadapter/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "build/_common/cs/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/cs/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/de/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/de/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/es/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/es/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/fr/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/fr/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/it/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/it/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/ja/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/ja/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/ko/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/ko/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/pl/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/pl/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/pt/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/pt/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/ru/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/ru/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/tr/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/tr/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/zh-Hans/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/zh-Hans/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/zh-Hant/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/zh-Hant/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/net45/MSTest.TestAdapter.props",
+        "build/net45/MSTest.TestAdapter.targets",
+        "build/netcoreapp1.0/MSTest.TestAdapter.props",
+        "build/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
+        "build/uap10.0/MSTest.TestAdapter.props",
+        "build/uap10.0/MSTest.TestAdapter.targets",
+        "build/uap10.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
+        "mstest.testadapter.2.0.0.nupkg.sha512",
+        "mstest.testadapter.nuspec"
+      ]
+    },
+    "MSTest.TestFramework/2.0.0": {
+      "sha512": "gDlwhzIqdhUB+tirA80c6jUnlAsWBl2RXsKwmCbeZ1XkTjufrZIrBs7cvBdxbzddAEFOZuqfeCHJK/rp0vloZg==",
+      "type": "package",
+      "path": "mstest.testframework/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/netstandard1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "mstest.testframework.2.0.0.nupkg.sha512",
+        "mstest.testframework.nuspec"
+      ]
+    },
+    "IEspeedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../IEspeedLibrary/IEspeedLibrary.csproj",
+      "msbuildProject": "../IEspeedLibrary/IEspeedLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.2": [
+      "IEspeedLibrary >= 1.0.0",
+      "MSTest.TestAdapter >= 2.0.0",
+      "MSTest.TestFramework >= 2.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tfo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Workspace\\BrowserSolutions\\IEspeedProjects\\IEspeedTests\\IEspeedTests.csproj",
+      "projectName": "IEspeedTests",
+      "projectPath": "C:\\Workspace\\BrowserSolutions\\IEspeedProjects\\IEspeedTests\\IEspeedTests.csproj",
+      "packagesPath": "C:\\Users\\tfo\\.nuget\\packages\\",
+      "outputPath": "C:\\Workspace\\BrowserSolutions\\IEspeedProjects\\IEspeedTests\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\tfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net462"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net462": {
+          "projectReferences": {
+            "C:\\Workspace\\BrowserSolutions\\IEspeedProjects\\IEspeedLibrary\\IEspeedLibrary.csproj": {
+              "projectPath": "C:\\Workspace\\BrowserSolutions\\IEspeedProjects\\IEspeedLibrary\\IEspeedLibrary.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net462": {
+        "dependencies": {
+          "MSTest.TestAdapter": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "MSTest.TestFramework": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

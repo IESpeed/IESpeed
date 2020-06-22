@@ -177,6 +177,7 @@ C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\bin\x86\Release\Cef
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\bin\x86\Release\IEspeedLibrary.dll
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\bin\x86\Release\IEspeedLibrary.pdb
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\bin\x86\Release\IEspeedLibrary.tlb
+C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Release\IEspeedLibrary.csprojAssemblyReference.cache
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Release\IEspeedLibrary.IEspeedControl.resources
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Release\IEspeedLibrary.OpenSaveForm.resources
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Release\IEspeedLibrary.Properties.Resources.resources
@@ -184,4 +185,3 @@ C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Release\IEs
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Release\IEspeedLibrary.csproj.CoreCompileInputs.cache
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Release\IEspeedLibrary.dll
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Release\IEspeedLibrary.pdb
-C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Release\IEspeedLibrary.csprojAssemblyReference.cache

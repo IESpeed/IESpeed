@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using Microsoft.Win32;
 using System.Runtime.InteropServices;
 using System.Reflection;
+using System.Windows.Threading;
 using CefSharp;
 using CefSharp.WinForms;
 using System.IO;
@@ -66,10 +67,14 @@ namespace IEspeedLibrary
         [ComVisible(true)]
         public void InitIEspeed()
         {
-            InitCef();
-            InitBrowser();
-            OnBrowserReady();
-            Controls.Add(browser);
+            this.Invoke(
+                (Action)(() =>
+                {
+                    InitCef();
+                    InitBrowser();
+                    OnBrowserReady();
+                    Controls.Add(browser);
+                }));
         }
 
         public DialogResult DownloadPrompt(string fileName, string fileType)
@@ -137,6 +142,7 @@ namespace IEspeedLibrary
                 {
                     confirm = false;
                 }
+                confirm = true;
                 callback.Continue(confirm);
                 return true;
             }
@@ -149,7 +155,7 @@ namespace IEspeedLibrary
 
             public event EventHandler<DownloadItem> OnDownloadUpdatedFired;
 
-            private IEspeedControl control;
+            private readonly IEspeedControl control;
 
             public DownloadRequestHandler(IEspeedControl controlIn)
             {
@@ -162,7 +168,7 @@ namespace IEspeedLibrary
                 // This line opens the OpenSaveForm on the main UI thread and returns the DialogResult
                 // to the excuting thread (a CefSharp thread)
                 DialogResult result = (DialogResult)control.Invoke(((Func<string, string, DialogResult>)
-                    ((fileName, fileType) => control.DownloadPrompt(fileName, fileType))), 
+                    ((fileName, fileType) => control.DownloadPrompt(fileName, fileType))),
                     downloadItem.SuggestedFileName, downloadItem.MimeType);
 
                 if (!callback.IsDisposed)

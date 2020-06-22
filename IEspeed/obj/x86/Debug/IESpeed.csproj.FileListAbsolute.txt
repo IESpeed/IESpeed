@@ -94,10 +94,6 @@ C:\Workspace\BrowserSolutions\IEboosterProjects\IEbooster\obj\x86\Debug\IESpeed.
 C:\Workspace\BrowserSolutions\IEboosterProjects\IEbooster\obj\x86\Debug\IESpeed.csproj.CopyComplete
 C:\Workspace\BrowserSolutions\IEboosterProjects\IEbooster\obj\x86\Debug\IESpeed.exe
 C:\Workspace\BrowserSolutions\IEboosterProjects\IEbooster\obj\x86\Debug\IESpeed.pdb
-C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.IEspeed.resources
-C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IESpeed.Properties.Resources.resources
-C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.csproj.GenerateResource.cache
-C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.csproj.CoreCompileInputs.cache
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Debug\CefSharp.Core.dll
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Debug\CefSharp.Core.pdb
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Debug\CefSharp.Core.xml
@@ -186,7 +182,10 @@ C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Debug\IEspeed.exe
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Debug\IEspeed.pdb
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Debug\IEspeedLibrary.dll
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\bin\x86\Debug\IEspeedLibrary.pdb
+C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.csprojAssemblyReference.cache
+C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.IEspeed.resources
+C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.Properties.Resources.resources
+C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.csproj.GenerateResource.cache
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.csproj.CopyComplete
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.exe
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.pdb
-C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.csprojAssemblyReference.cache

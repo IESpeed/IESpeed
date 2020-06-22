@@ -10,5 +10,6 @@
     </StartURL>
     <StartArguments>c:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\iespeed.html</StartArguments>
     <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
   </PropertyGroup>
 </Project>
