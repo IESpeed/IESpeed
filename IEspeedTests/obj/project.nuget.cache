@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "+XWP6TUU1dwtWn+3MyZCXp13872L7XEfXyZM4oN/JBS8Mb2vNMSOdKyTxVc4qgtGdNISbfbHPYyMMbes6P0jnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Workspace\\BrowserSolutions\\IEspeedProjects\\IEspeedTests\\IEspeedTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tfo\\.nuget\\packages\\cef.redist.x64\\75.1.14\\cef.redist.x64.75.1.14.nupkg.sha512",
+    "C:\\Users\\tfo\\.nuget\\packages\\cef.redist.x86\\75.1.14\\cef.redist.x86.75.1.14.nupkg.sha512",
+    "C:\\Users\\tfo\\.nuget\\packages\\cefsharp.common\\75.1.142\\cefsharp.common.75.1.142.nupkg.sha512",
+    "C:\\Users\\tfo\\.nuget\\packages\\cefsharp.winforms\\75.1.142\\cefsharp.winforms.75.1.142.nupkg.sha512",
+    "C:\\Users\\tfo\\.nuget\\packages\\mstest.testadapter\\2.0.0\\mstest.testadapter.2.0.0.nupkg.sha512",
+    "C:\\Users\\tfo\\.nuget\\packages\\mstest.testframework\\2.0.0\\mstest.testframework.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

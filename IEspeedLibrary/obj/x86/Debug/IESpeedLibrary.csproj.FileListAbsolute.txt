@@ -183,3 +183,4 @@ C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Debug\IEspe
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Debug\IEspeedLibrary.csproj.GenerateResource.cache
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Debug\IEspeedLibrary.dll
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Debug\IEspeedLibrary.pdb
+C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedLibrary\obj\x86\Debug\IEspeedLibrary.csproj.CoreCompileInputs.cache

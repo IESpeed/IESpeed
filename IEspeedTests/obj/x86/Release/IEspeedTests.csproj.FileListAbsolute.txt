@@ -94,3 +94,4 @@ C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedTests\obj\x86\Release\IEspe
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedTests\obj\x86\Release\IEspeedTests.csproj.CopyComplete
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedTests\obj\x86\Release\IEspeedTests.dll
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedTests\obj\x86\Release\IEspeedTests.pdb
+C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedTests\obj\x86\Release\IEspeedTests.csproj.CoreCompileInputs.cache

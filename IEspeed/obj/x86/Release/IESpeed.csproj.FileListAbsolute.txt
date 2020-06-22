@@ -187,3 +187,4 @@ C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Release\IEspeed.Pr
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Release\IEspeed.csproj.GenerateResource.cache
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Release\IEspeed.csproj.CopyComplete
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Release\IEspeed.exe
+C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Release\IEspeed.csproj.CoreCompileInputs.cache

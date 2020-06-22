@@ -189,3 +189,4 @@ C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.cspr
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.csproj.CopyComplete
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.exe
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.pdb
+C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeed\obj\x86\Debug\IEspeed.csproj.CoreCompileInputs.cache

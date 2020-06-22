@@ -16,7 +16,7 @@ namespace IEspeedLibrary
     [ComVisible(true)]
     [ClassInterface(ClassInterfaceType.None)]
     [ComSourceInterfaces(typeof(IComEvents))]
-    public partial class IEspeedControl : UserControl, IComObject
+    public partial class IEspeedControl : UserControl, IComObject, IDisposable
     {
 
         public delegate void BrowserReady();
@@ -76,6 +76,23 @@ namespace IEspeedLibrary
                     Controls.Add(browser);
                 }));
         }
+
+        //~IEspeedControl()
+        //{
+        //    Dispose(false);
+        //}
+
+        //// Own dispose method to shutdown Cef on main UI Thread and prevent crash SD-8025
+        //new public void Dispose()
+        //{
+        //    Dispose(true);
+        //    // This object will be cleaned up by the Dispose method.
+        //    // Therefore, you should call GC.SupressFinalize to
+        //    // take this object off the finalization queue
+        //    // and prevent finalization code for this object
+        //    // from executing a second time.
+        //    GC.SuppressFinalize(this);
+        //}
 
         public DialogResult DownloadPrompt(string fileName, string fileType)
         {
