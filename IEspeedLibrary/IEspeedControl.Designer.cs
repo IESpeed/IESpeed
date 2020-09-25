@@ -1,7 +1,4 @@
-﻿using CefSharp;
-using System;
-
-namespace IEspeedLibrary
+﻿namespace IEspeedLibrary
 {
     partial class IEspeedControl
     {
@@ -16,18 +13,8 @@ namespace IEspeedLibrary
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
-            if (disposing)
-            {
-                this.Invoke(
-                (Action)(() => Cef.Shutdown())
-                );
-            }
-
             if (disposing && (components != null))
             {
-{
-                    Dispose(false);
-                }
                 components.Dispose();
             }
             base.Dispose(disposing);

@@ -66,3 +66,32 @@
 [0326/100548.638:INFO:CONSOLE(1)] "[W] No such config "listeners" for class Ext.panel.Title", source: http://ehealthsolutions.ith-icoserve.com:8081/WebResourceProviderHook/extJS/sense-ehealthwolf/bundle-production.js?version=3.7.0.222.ee3d7c69 (1)
 [0326/100548.638:INFO:CONSOLE(1)] "[W] responsive plugin is deprecated; require "Ext.Responsive" instead", source: http://ehealthsolutions.ith-icoserve.com:8081/WebResourceProviderHook/extJS/sense-ehealthwolf/bundle-production.js?version=3.7.0.222.ee3d7c69 (1)
 [0326/100551.654:ERROR:browser_process_sub_thread.cc(221)] Waited 13 ms for network service
+[0925/114154.438:INFO:child_thread_impl.cc(746)] ChildThreadImpl::EnsureConnected()
+[0925/114627.884:ERROR:broker_win.cc(55)] Error reading broker pipe: The pipe has been ended. (0x6D)
+[0925/114627.887:ERROR:cmd_buffer_helper.cc(141)] ContextResult::kFatalFailure: CommandBufferHelper::AllocateRingBuffer() failed
+[0925/115118.755:WARNING:spdy_session.cc(3326)] Received HEADERS for invalid stream 3
+[0925/115121.420:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+[0925/115121.422:ERROR:cache_util.cc(141)] Unable to move cache folder GPUCache to old_GPUCache_000
+[0925/115121.422:ERROR:disk_cache.cc(178)] Unable to create cache
+[0925/115121.422:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+[0925/115132.260:INFO:CONSOLE(26)] "25 Sep 11:51:32.195 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115132.261:INFO:CONSOLE(26)] "25 Sep 11:51:32.206 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115132.261:INFO:CONSOLE(26)] "25 Sep 11:51:32.211 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115133.092:INFO:CONSOLE(26)] "25 Sep 11:51:32.967 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115133.092:INFO:CONSOLE(26)] "25 Sep 11:51:33.041 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115133.131:INFO:CONSOLE(26)] "25 Sep 11:51:33.067 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115133.147:INFO:CONSOLE(26)] "25 Sep 11:51:33.067 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115133.741:INFO:CONSOLE(26)] "25 Sep 11:51:33.660 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115133.841:INFO:CONSOLE(26)] "25 Sep 11:51:33.779 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115134.431:INFO:CONSOLE(26)] "25 Sep 11:51:34.351 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115134.716:INFO:CONSOLE(26)] "25 Sep 11:51:34.637 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115134.785:INFO:CONSOLE(26)] "25 Sep 11:51:34.719 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115136.758:WARNING:render_delay_buffer.cc(341)] Applying total delay of 5 blocks.
+[0925/115136.809:INFO:CONSOLE(26)] "25 Sep 11:51:36.737 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115136.810:INFO:CONSOLE(26)] "25 Sep 11:51:36.750 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115136.850:INFO:CONSOLE(26)] "25 Sep 11:51:36.755 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115137.127:INFO:CONSOLE(32)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://static.adsafeprotected.com/sca.17.4.114.js (32)
+[0925/115137.127:INFO:CONSOLE(32)] "a: 0.005126953125ms", source: https://static.adsafeprotected.com/sca.17.4.114.js (32)
+[0925/115137.578:INFO:CONSOLE(26)] "25 Sep 11:51:37.533 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115137.773:INFO:CONSOLE(26)] "25 Sep 11:51:37.726 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
+[0925/115137.952:INFO:CONSOLE(26)] "25 Sep 11:51:37.931 - g5-component :", source: https://www-league.nhlstatic.com/nhl.com/builds/site-core/69badde33feaf2d11974497d30b598276cb135c7_1600126356/scripts/site-all.js.gz (26)
