@@ -112,6 +112,7 @@ namespace IEspeedLibrary
 
         private void InitCef()
         {
+            // this is set to false as it causes crashes in SAP due to the single process model
             CefSharpSettings.ShutdownOnExit = false;
             CefSettings settings = new CefSettings();
             if (!Cef.IsInitialized)
