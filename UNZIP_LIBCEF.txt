@@ -1,0 +1,1 @@
+libcef.dll was compresse in a zip file, since for CefSharp v86 or higher the dll exceeds the maximum files size allowed by git (100MB).
