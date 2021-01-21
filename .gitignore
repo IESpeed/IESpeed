@@ -1,0 +1,16 @@
+.gitignore/*
+.vs/*
+
+*.csproj.user
+*.cache
+*.suo
+
+IEspeed/bin/*
+IEspeed/obj/*
+
+IEspeedLibrary/bin/*
+IEspeedLibrary/obj/*
+
+
+MigrationBackup/*
+TestResults/*

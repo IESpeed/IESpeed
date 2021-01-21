@@ -105,7 +105,6 @@ namespace IEspeedLibrary
             skey.Replace(@"HKEY_CLASSES_ROOT\", "");
             RegistryKey regKey = Registry.ClassesRoot.OpenSubKey(skey.ToString(), true);
             regKey.DeleteSubKey("Control", false);
-            RegistryKey inprocServer32 = regKey.OpenSubKey("InprocServer32", true);
             regKey.DeleteSubKey("CodeBase", false);
             regKey.Close();
         }
@@ -149,7 +148,6 @@ namespace IEspeedLibrary
 
         public class DownloadRequestHandler : CefSharp.IDownloadHandler
         {
-
             public event EventHandler<DownloadItem> OnBeforeDownloadFired;
 
             public event EventHandler<DownloadItem> OnDownloadUpdatedFired;
@@ -166,8 +164,8 @@ namespace IEspeedLibrary
                 // This line is over complex due to time constraints
                 // This line opens the OpenSaveForm on the main UI thread and returns the DialogResult
                 // to the excuting thread (a CefSharp thread)
-                DialogResult result = (DialogResult)control.Invoke(((Func<string, string, DialogResult>)
-                    ((fileName, fileType) => control.DownloadPrompt(fileName, fileType))),
+                DialogResult result = (DialogResult)control.Invoke((Func<string, string, DialogResult>)
+                    ((fileName, fileType) => control.DownloadPrompt(fileName, fileType)),
                     downloadItem.SuggestedFileName, downloadItem.MimeType);
 
                 if (!callback.IsDisposed)
