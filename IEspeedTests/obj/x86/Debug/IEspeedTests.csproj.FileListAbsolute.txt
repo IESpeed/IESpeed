@@ -94,3 +94,4 @@ C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedTests\obj\x86\Debug\IEspeed
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedTests\bin\x86\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedTests\bin\x86\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedTests\bin\x86\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Workspace\BrowserSolutions\IEspeedProjects\IEspeedTests\obj\x86\Debug\IEspeedTests.csproj.CoreCompileInputs.cache

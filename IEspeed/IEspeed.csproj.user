@@ -9,6 +9,19 @@
     <RemoteDebugEnabled>false</RemoteDebugEnabled>
     <RemoteDebugMachine>nb-068:4024</RemoteDebugMachine>
     <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
-    <StartArguments>http://ehealthsolutions.ith-icoserve.com:8081/SenseAuthenticationHook/login%3fuser=physician&amp;context=CONSUMER&amp;formattedCISUsername=physician&amp;lastname=clark&amp;timestamp=08102020000001&amp;firstname=henry&amp;signature=not_signed</StartArguments>
+    <StartArguments>
+    </StartArguments>
+    <StartAction>Project</StartAction>
+    <StartURL>http://ehealthsolutions.ith-icoserve.com:8081/SenseAuthenticationHook/login%3fuser=physician&amp;context=CONSUMER&amp;formattedCISUsername=physician&amp;lastname=clark&amp;timestamp=08102020000001&amp;firstname=henry&amp;signature=not_signed</StartURL>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PublishUrlHistory>publish\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
   </PropertyGroup>
 </Project>

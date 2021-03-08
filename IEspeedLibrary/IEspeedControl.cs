@@ -16,9 +16,8 @@ namespace IEspeedLibrary
     [ComVisible(true)]
     [ClassInterface(ClassInterfaceType.None)]
     [ComSourceInterfaces(typeof(IComEvents))]
-    public partial class IEspeedControl : UserControl, IComObject
+    public partial class IEspeedControl : UserControl, IComObject, IDisposable
     {
-
         public delegate void BrowserReady();
 
         public event BrowserReady OnBrowserReady;
@@ -113,8 +112,9 @@ namespace IEspeedLibrary
 
         private void InitCef()
         {
+            // this is set to false as it causes crashes in SAP due to the single process model
+            CefSharpSettings.ShutdownOnExit = false;
             CefSettings settings = new CefSettings();
-            //settings.CefCommandLineArgs.Add("ignore-certificate-errors", string.Empty);
             if (!Cef.IsInitialized)
             {
                 Cef.EnableHighDPISupport();
@@ -142,7 +142,6 @@ namespace IEspeedLibrary
                 {
                     confirm = false;
                 }
-                confirm = true;
                 callback.Continue(confirm);
                 return true;
             }
