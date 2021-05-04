@@ -9,4 +9,15 @@ There are two vs projects:
 IEspeed: external WinForms app containing IEspeedControl.
 IEspeedLibrary: contains IEspeedControl.
 
-Compiled only for x86.
+There are two separate branches, one for 32-bit and one for 64-bit.
+
+32-bit x86 Version Requirements:
+
+
+64-bit x64 Version Requirements:
+CefSharp v89.0.170 
+At least .Net 4.5.2
+At least Visual C++ 2015 Redist
+
+
+
