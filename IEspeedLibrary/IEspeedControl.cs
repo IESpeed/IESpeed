@@ -84,31 +84,31 @@ namespace IEspeedLibrary
             return dialog.ShowDialog();
         }
 
-        [ComRegisterFunction()]
-        public static void RegisterClass(string key)
-        {
-            StringBuilder skey = new StringBuilder(key);
-            skey.Replace(@"HKEY_CLASSES_ROOT\", "");
-            RegistryKey regKey = Registry.ClassesRoot.OpenSubKey(skey.ToString(), true);
-            RegistryKey ctrl = regKey.CreateSubKey("Control");
-            ctrl.Close();
-            RegistryKey inprocServer32 = regKey.OpenSubKey("InprocServer32", true);
-            inprocServer32.SetValue("CodeBase", Assembly.GetExecutingAssembly().CodeBase);
-            inprocServer32.Close();
-            regKey.Close();
-        }
+        //[ComRegisterFunction()]
+        //public static void RegisterClass(string key)
+        //{
+        //    StringBuilder skey = new StringBuilder(key);
+        //    skey.Replace(@"HKEY_CLASSES_ROOT\", "");
+        //    RegistryKey regKey = Registry.ClassesRoot.OpenSubKey(skey.ToString(), true);
+        //    RegistryKey ctrl = regKey.CreateSubKey("Control");
+        //    ctrl.Close();
+        //    RegistryKey inprocServer32 = regKey.OpenSubKey("InprocServer32", true);
+        //    inprocServer32.SetValue("CodeBase", Assembly.GetExecutingAssembly().CodeBase);
+        //    inprocServer32.Close();
+        //    regKey.Close();
+        //}
 
-        [ComUnregisterFunction()]
-        public static void UnregisterClass(string key)
-        {
-            StringBuilder skey = new StringBuilder(key);
-            skey.Replace(@"HKEY_CLASSES_ROOT\", "");
-            RegistryKey regKey = Registry.ClassesRoot.OpenSubKey(skey.ToString(), true);
-            regKey.DeleteSubKey("Control", false);
-            RegistryKey inprocServer32 = regKey.OpenSubKey("InprocServer32", true);
-            regKey.DeleteSubKey("CodeBase", false);
-            regKey.Close();
-        }
+        //[ComUnregisterFunction()]
+        //public static void UnregisterClass(string key)
+        //{
+        //    StringBuilder skey = new StringBuilder(key);
+        //    skey.Replace(@"HKEY_CLASSES_ROOT\", "");
+        //    RegistryKey regKey = Registry.ClassesRoot.OpenSubKey(skey.ToString(), true);
+        //    regKey.DeleteSubKey("Control", false);
+        //    RegistryKey inprocServer32 = regKey.OpenSubKey("InprocServer32", true);
+        //    regKey.DeleteSubKey("CodeBase", false);
+        //    regKey.Close();
+        //}
 
         private void InitCef()
         {
